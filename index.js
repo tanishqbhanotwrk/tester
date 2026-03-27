@@ -10,5 +10,5 @@ app.get("/test", (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log("Everything works really well here as well.");
+    console.log("Everything works really well here as well on port: ", PORT);
 })
